@@ -23,7 +23,7 @@ gulp.task('clean', () => {
 });
 
 gulp.task('jade', () => {
-  return gulp.src([`.${srcPath}/**/*.jade`])
+  return gulp.src([`.${srcPath}/**/[^_]*.jade`])
       .pipe($.plumber())
       .pipe($.jade({pretty: true}))
       .pipe(gulp.dest(`.${destPath}`))
