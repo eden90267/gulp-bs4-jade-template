@@ -2,7 +2,8 @@
   "name": "gulp-bs4-jade-template",
   "version": "0.0.1",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build --env production"
   },
   "dependencies": {
     "autoprefixer": "^6.7.7",
