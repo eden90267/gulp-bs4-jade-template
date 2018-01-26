@@ -1,4 +1,4 @@
-# gulp-bs4-jade-templage
+# gulp-bs4-jade-template
 
 ## 安裝環境
 
